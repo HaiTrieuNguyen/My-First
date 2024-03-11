@@ -409,6 +409,10 @@ hero .stats {
   padding: 96px 0;
 }
 
+/* .feedback-list {
+  display: flex;
+} */
+
 .feedback-item {
   display: flex;
 }
@@ -464,4 +468,53 @@ hero .stats {
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54; /* 153.846% */
+}
+
+/* Features */
+
+.feature {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.feature .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature .images {
+  gap: 30px;
+  display: flex;
+}
+
+.feature .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.feature .lower {
+  margin-top: 34px;
+}
+
+.feature .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+
+.feature .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
 }
